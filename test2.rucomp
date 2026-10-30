@@ -1,0 +1,21 @@
+args a, b;
+int x, y, z;
+x = 0;
+y = a + b;
+if a > b then
+{
+    z = a - b;
+}
+else
+{
+    z = b - a;
+}
+if z < 10 then
+{
+    x = z + 5;
+}
+else
+{
+    x = z + 15;
+}
+return x;

@@ -1,0 +1,28 @@
+args u,v,w;
+int a;
+a=0;
+if u >= 5 then 
+{
+    a = 5;
+}
+else
+{
+    a = 0;
+}
+if v > 5 then 
+{
+    a = a + 5;
+}
+else
+{
+    a = a * 5;
+}
+if w < 5 then 
+{
+    a = a - 1;
+}
+else 
+{
+    a = a + 1;
+}
+return a;

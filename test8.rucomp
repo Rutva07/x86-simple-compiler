@@ -1,0 +1,18 @@
+args x,y,z;
+int a,b,c;
+a = 100; 
+while a > 2 then 
+{
+    a = a - 10;
+    x = x - 1;
+}
+if y < z then
+{
+    x = x + y;
+}
+else
+{
+    x = x + (5 * y);
+}
+x = x * z;
+return x;

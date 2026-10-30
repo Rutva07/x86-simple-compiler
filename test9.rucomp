@@ -1,0 +1,32 @@
+args a, b, c;
+int x, y, z, temp;
+
+x = a + b;
+y = b + c;
+z = 0;
+
+while x < 20 then
+{
+    z = z + y;
+    x = x + 3;
+    if z > 50 then
+    {
+        y = y + 1;
+    }
+    else
+    {
+        y = y + 2;
+    }
+}
+
+if a > b then
+{
+    temp = z + a;
+}
+else
+{
+    temp = z + b;
+}
+
+x = temp * c;
+return x;

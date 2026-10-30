@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+extern unsigned long int foo (unsigned long int);
+
+int main(int argc, char** argv){
+    unsigned long u = 20;
+    printf("the result is %ld\n", foo(u));
+    return 0;
+}

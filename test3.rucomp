@@ -1,0 +1,17 @@
+args a, b;
+int result, u,v,w,x,y,z;
+u = 1;
+v = 2;
+w = 3;
+x = 4;
+y = 5;
+z = 6;
+if a>b then 
+{
+    result = u+v+w;
+}
+else
+{
+    result = x+y + z;
+}
+return result;

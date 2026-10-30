@@ -1,0 +1,14 @@
+args c;
+int a, b;
+a = 3;
+b = 10;
+if b>a then 
+{
+    b = 0;
+}
+else
+{
+    a = 0;
+}
+b = (b + c) * c;
+return b;

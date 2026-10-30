@@ -1,0 +1,14 @@
+args a,   b;
+int c, d;
+c = 0;
+d = 1;
+while c < b then
+{
+d = d + c;
+c = c + 1;
+}
+if a == 4 then 
+{d = d *10;}
+else 
+{d = d*5;}
+return d;
