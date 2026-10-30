@@ -143,8 +143,6 @@ The DAG merges repeated leaves and equivalent associative/commutative `+` and `*
 - Functions are always named `foo` and return a 64-bit integer.
 - More than six arguments are not supported.
 - There is no type checker or semantic validation pass; malformed declarations or unknown variables may fail during parsing or code generation.
-- Division, unary operators, comments, user-defined functions, and declarations without at least one identifier are not supported.
-- The LLVM-like IR generator in `second` is present for experimentation, but its file-writing path is currently disabled; the active backend emits x86-64 directly.
 
 ## Exploring the examples
 
